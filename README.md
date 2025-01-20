@@ -1,7 +1,7 @@
 # Бот АнтиФёдор
 
-![CI](https://github.com/AlexEreh/anti_fedor/actions/workflows/ci.yml/badge.svg)
-[![codecov](https://codecov.io/gh/AlexEreh/anti_fedor/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexEreh/anti_fedor)
+![CI](https://github.com/AlexEreh/mute_bot/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/AlexEreh/mute_bot/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexEreh/mute_bot)
 
 ## Что умеет этот бот
 * Мутить по команде `/mute amount unit`, 
@@ -37,9 +37,3 @@ TELOXIDE_TOKEN = 'токен'
 * [Teloxide](https://github.com/teloxide/teloxide) - достаточно простой фреймворк для написания 
 телеграм ботов с помощью языка Rust.
 * [chrono](https://crates.io/crates/chrono) - крейт для работы с единицами измерения времени.
-
-## Почему АнтиФёдор, а не АнтиСтас?
-**Долгая история, но проще всего сказать "Потому что".** 
-
-Автор проекта не призывает дискриминировать людей по признаку имени, 
-а просто хочет сказать что его опыт показывает наличие людей в группах в телеграмме, достойных мута.
