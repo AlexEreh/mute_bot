@@ -5,14 +5,14 @@ edition = "2021"
 publish = false
 
 [dependencies]
-shuttle-service = { version = "0.47.0", features = ["tokio"] }
+shuttle-service = { version = "0.51.0", features = ["tokio"] }
 shuttle-secrets = "0.42.0"
 shuttle-runtime = { version = "0.44.0", features = ["colored"] }
 shuttle-axum = "0.44.0"
 axum = "0.7.6"
 teloxide = { version = "0.12.2", features = ["webhooks", "tower", "macros", "teloxide-macros"] }
-tokio = { version = "1.40.0", features = ["full"] }
-chrono = "0.4.38"
+tokio = { version = "1.43.0", features = ["full"] }
+chrono = "0.4.39"
 pretty_env_logger = "0.5.0"
-log = "0.4.22"
+log = "0.4.25"
 dotenvy = "0.15.7"
