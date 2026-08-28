@@ -27,7 +27,7 @@ jobs:
       - name: Install toolchain
         uses: dtolnay/rust-toolchain@stable
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Check
         uses: actions-rs/cargo@v1
         with:
